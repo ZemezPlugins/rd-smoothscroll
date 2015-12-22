@@ -1,0 +1,16 @@
+.alert{
+	padding: 15px;
+	font-weight: 400;
+	&.alert-success{
+		background: #A5D6A7;
+	}
+	&.alert-info{
+		background: #81D4FA;
+	}
+	&.alert-warning{
+		background: #FFE082;
+	}
+	&.alert-danger{
+		background: #EF9A9A;
+	}
+}

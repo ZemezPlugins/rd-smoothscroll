@@ -1,0 +1,306 @@
+/**
+ * Title: Dripicons Flaticon Pack
+ * Author: Amit Jakhu
+ * Source: http://www.flaticon.com/packs/dripicons
+ * License:  CC BY 3.0 (http://creativecommons.org/licenses/by/3.0/)
+ */
+
+@font-face {
+	font-family: "fl-dripicons";
+	src: url("../fonts/fl-dripicons.eot");
+	src: url("../fonts/fl-dripicons.eot#iefix") format("embedded-opentype"),
+	url("../fonts/fl-dripicons.woff") format("woff"),
+	url("../fonts/fl-dripicons.ttf") format("truetype"),
+	url("../fonts/fl-dripicons.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fl-dripicons-ico,
+[class^="fl-dripicons-"]:before, [class*=" fl-dripicons-"]:before,
+[class^="fl-dripicons-"]:after, [class*=" fl-dripicons-"]:after {   
+	font-family: fl-dripicons;
+    font-size: inherit;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.fl-dripicons-align7:before {
+	content: "\e000";
+}
+.fl-dripicons-arrow63:before {
+	content: "\e001";
+}
+.fl-dripicons-arrow64:before {
+	content: "\e002";
+}
+.fl-dripicons-arrow73:before {
+	content: "\e003";
+}
+.fl-dripicons-arrows4:before {
+	content: "\e004";
+}
+.fl-dripicons-ascendant:before {
+	content: "\e005";
+}
+.fl-dripicons-attachment3:before {
+	content: "\e006";
+}
+.fl-dripicons-checkmark2:before {
+	content: "\e007";
+}
+.fl-dripicons-chevron8:before {
+	content: "\e008";
+}
+.fl-dripicons-circle9:before {
+	content: "\e009";
+}
+.fl-dripicons-clockwise:before {
+	content: "\e00a";
+}
+.fl-dripicons-code3:before {
+	content: "\e00b";
+}
+.fl-dripicons-conversation1:before {
+	content: "\e00c";
+}
+.fl-dripicons-cross5:before {
+	content: "\e00d";
+}
+.fl-dripicons-days:before {
+	content: "\e00e";
+}
+.fl-dripicons-direction1:before {
+	content: "\e00f";
+}
+.fl-dripicons-down5:before {
+	content: "\e010";
+}
+.fl-dripicons-down6:before {
+	content: "\e011";
+}
+.fl-dripicons-download12:before {
+	content: "\e012";
+}
+.fl-dripicons-edit4:before {
+	content: "\e013";
+}
+.fl-dripicons-export:before {
+	content: "\e014";
+}
+.fl-dripicons-eye8:before {
+	content: "\e015";
+}
+.fl-dripicons-feed:before {
+	content: "\e016";
+}
+.fl-dripicons-folder24:before {
+	content: "\e017";
+}
+.fl-dripicons-forward1:before {
+	content: "\e018";
+}
+.fl-dripicons-frontal:before {
+	content: "\e019";
+}
+.fl-dripicons-gaming:before {
+	content: "\e01a";
+}
+.fl-dripicons-gear:before {
+	content: "\e01b";
+}
+.fl-dripicons-graph3:before {
+	content: "\e01c";
+}
+.fl-dripicons-graph7:before {
+	content: "\e01d";
+}
+.fl-dripicons-graph8:before {
+	content: "\e01e";
+}
+.fl-dripicons-headset1:before {
+	content: "\e01f";
+}
+.fl-dripicons-heart10:before {
+	content: "\e020";
+}
+.fl-dripicons-help2:before {
+	content: "\e021";
+}
+.fl-dripicons-home11:before {
+	content: "\e022";
+}
+.fl-dripicons-info6:before {
+	content: "\e023";
+}
+.fl-dripicons-justify:before {
+	content: "\e024";
+}
+.fl-dripicons-left11:before {
+	content: "\e025";
+}
+.fl-dripicons-left17:before {
+	content: "\e026";
+}
+.fl-dripicons-line4:before {
+	content: "\e027";
+}
+.fl-dripicons-loading:before {
+	content: "\e028";
+}
+.fl-dripicons-location12:before {
+	content: "\e029";
+}
+.fl-dripicons-lock5:before {
+	content: "\e02a";
+}
+.fl-dripicons-loop4:before {
+	content: "\e02b";
+}
+.fl-dripicons-mail5:before {
+	content: "\e02c";
+}
+.fl-dripicons-map4:before {
+	content: "\e02d";
+}
+.fl-dripicons-media11:before {
+	content: "\e02e";
+}
+.fl-dripicons-media12:before {
+	content: "\e02f";
+}
+.fl-dripicons-menu10:before {
+	content: "\e030";
+}
+.fl-dripicons-microphone6:before {
+	content: "\e031";
+}
+.fl-dripicons-mobile5:before {
+	content: "\e032";
+}
+.fl-dripicons-mobile7:before {
+	content: "\e033";
+}
+.fl-dripicons-move5:before {
+	content: "\e034";
+}
+.fl-dripicons-multimedia1:before {
+	content: "\e035";
+}
+.fl-dripicons-new8:before {
+	content: "\e036";
+}
+.fl-dripicons-next5:before {
+	content: "\e037";
+}
+.fl-dripicons-note3:before {
+	content: "\e038";
+}
+.fl-dripicons-open15:before {
+	content: "\e039";
+}
+.fl-dripicons-open16:before {
+	content: "\e03a";
+}
+.fl-dripicons-outline3:before {
+	content: "\e03b";
+}
+.fl-dripicons-outlined:before {
+	content: "\e03c";
+}
+.fl-dripicons-phone14:before {
+	content: "\e03d";
+}
+.fl-dripicons-photo7:before {
+	content: "\e03e";
+}
+.fl-dripicons-plus13:before {
+	content: "\e03f";
+}
+.fl-dripicons-print1:before {
+	content: "\e040";
+}
+.fl-dripicons-question2:before {
+	content: "\e041";
+}
+.fl-dripicons-rectangular1:before {
+	content: "\e042";
+}
+.fl-dripicons-reply2:before {
+	content: "\e043";
+}
+.fl-dripicons-reply4:before {
+	content: "\e044";
+}
+.fl-dripicons-return5:before {
+	content: "\e045";
+}
+.fl-dripicons-retweet1:before {
+	content: "\e046";
+}
+.fl-dripicons-search6:before {
+	content: "\e047";
+}
+.fl-dripicons-star11:before {
+	content: "\e048";
+}
+.fl-dripicons-stop4:before {
+	content: "\e049";
+}
+.fl-dripicons-tablet4:before {
+	content: "\e04a";
+}
+.fl-dripicons-tablet5:before {
+	content: "\e04b";
+}
+.fl-dripicons-text15:before {
+	content: "\e04c";
+}
+.fl-dripicons-text2:before {
+	content: "\e04d";
+}
+.fl-dripicons-thin2:before {
+	content: "\e04e";
+}
+.fl-dripicons-thin6:before {
+	content: "\e04f";
+}
+.fl-dripicons-thumbs9:before {
+	content: "\e050";
+}
+.fl-dripicons-thumbup:before {
+	content: "\e051";
+}
+.fl-dripicons-trash3:before {
+	content: "\e052";
+}
+.fl-dripicons-triangle4:before {
+	content: "\e053";
+}
+.fl-dripicons-upload8:before {
+	content: "\e054";
+}
+.fl-dripicons-user14:before {
+	content: "\e055";
+}
+.fl-dripicons-user15:before {
+	content: "\e056";
+}
+.fl-dripicons-view2:before {
+	content: "\e057";
+}
+.fl-dripicons-view3:before {
+	content: "\e058";
+}
+.fl-dripicons-view:before {
+	content: "\e059";
+}
+.fl-dripicons-volume12:before {
+	content: "\e05a";
+}
+.fl-dripicons-volume5:before {
+	content: "\e05b";
+}
+.fl-dripicons-window12:before {
+	content: "\e05c";
+}

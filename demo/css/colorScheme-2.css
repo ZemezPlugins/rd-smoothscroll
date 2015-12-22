@@ -1,0 +1,177 @@
+/* owl-carousel.scss
+=========================================================*/
+@-webkit-keyframes fadeOut {}
+.owl-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 29px 60px 29px 0;
+  border-color: transparent #2d3e50 transparent transparent;
+}
+.owl-prev:hover {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 29px 60px 29px 0;
+  border-color: transparent #607D8B transparent transparent;
+}
+
+.owl-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 29px 0 29px 60px;
+  border-color: transparent transparent transparent #2d3e50;
+}
+.owl-next:hover {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 29px 0 29px 60px;
+  border-color: transparent transparent transparent #607D8B;
+}
+
+@media (max-width: 479px) {
+  .owl-prev {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 30px 14px 0;
+    border-color: transparent #2d3e50 transparent transparent;
+  }
+  .owl-prev:hover {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 30px 14px 0;
+    border-color: transparent #607D8B transparent transparent;
+  }
+
+  .owl-next {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 0 14px 30px;
+    border-color: transparent transparent transparent #2d3e50;
+  }
+  .owl-next:hover {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 0 14px 30px;
+    border-color: transparent transparent transparent #607D8B;
+  }
+}
+/* style.scss
+=========================================================*/
+body {
+  background: #2d3e50;
+  color: #9ea8a9;
+}
+
+h1, h2, h3, h4, h6 {
+  color: #7f8c8d;
+}
+
+html .color-1 {
+  color: #ffffff;
+}
+html .color-2 {
+  color: #7f8c8d;
+}
+html .color-3 {
+  color: #455A64;
+}
+html .color-4 {
+  color: #009688;
+}
+html .color-5 {
+  color: #2d3e50;
+}
+html .color-6 {
+  color: #607D8B;
+}
+
+.brand_name span {
+  color: #2d3e50;
+}
+
+.bgc .grid_7:before {
+  background: url(../images/bg-image1_3.png) no-repeat right bottom;
+}
+
+.bgc-all:before {
+  background: #ecf0f1;
+}
+.bgc-all:after {
+  background: #455A64;
+}
+
+.bgc-2:before, .bgc-2:after {
+  background: #ecf0f1;
+}
+
+.bgc-3 .btn {
+  background: #2d3e50;
+}
+.bgc-3 .btn:hover, .bgc-3 .btn:active {
+  background: #7f8c8d;
+}
+.bgc-3:before, .bgc-3:after {
+  background: #455A64;
+}
+
+.bgc-5:before, .bgc-5:after {
+  background: #2d3e50;
+}
+
+.marked-list li:before {
+  color: #7f8c8d;
+}
+
+.btn {
+  background: #607D8B;
+}
+.btn:hover {
+  background: #455A64;
+}
+.btn:active {
+  background: #303f46;
+}
+
+header {
+  background: #253341;
+  color: #ffffff;
+}
+header .brand_name {
+  color: #ffffff;
+}
+header .brand_name span {
+  color: #b2bdca;
+}
+
+main {
+  background: #ffffff;
+}
+
+footer {
+  color: #ffffff;
+}
+footer .brand_name {
+  color: #ffffff;
+}
+footer .brand_name span {
+  color: #b2bdca;
+}
+
+.toTop {
+  color: #2d3e50;
+  background: #ffffff;
+}
+.toTop:hover {
+  background: #2d3e50;
+}
+
+.map_info:before {
+  background: #009688;
+}

@@ -1,0 +1,31 @@
+//========================================================
+//                     Variables
+//=========================================================
+//Content scheme
+$col-sch-1: #1d88de;
+$col-sch-2: #ec4034;
+$col-sch-3: #4aab4d;
+$col-sch-4: #ff9700;
+
+$sidebar-color: #ffffff;
+$sidebar-btn: #f6f6f6;
+
+$sidebar-schemes: #3949AB #43A047 #5E35B1 #7CB342 #1E88E5 #D81B60 #00897B #546E7A #8E24AA;
+$section-schemes: #3F51B5 #4CAF50 #673AB7 #8BC34A #2196F3 #E91E63 #009688 #607D8B #9C27B0;
+
+//Fonts
+$fnt-fam-1: 'Roboto', sans-serif;
+
+//Header
+$header-color: #ffffff;
+$header-bg: nth($section-schemes, 1);
+
+
+$content-bg: #f9f9f9;
+
+//Body
+$body-font: 400 14px/24px $fnt-fam-1;
+$body-color: #212121;
+$body-bg: $content-bg;
+
+$heading-color: #212727;
