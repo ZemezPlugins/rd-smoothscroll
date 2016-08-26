@@ -10,9 +10,7 @@
     "use strict";
 
     var isTouch = "ontouchstart" in window,
-        isFirefox = typeof InstallTrigger !== 'undefined',
-        isMac = window.navigator.platform === 'MacIntel' || window.navigator.platform === 'MacPPC',
-        isWebkit = "webkitTransform" in document.documentElement.style;
+        isMac = window.navigator.platform === 'MacIntel' || window.navigator.platform === 'MacPPC';
 
     /*
      * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
@@ -47,7 +45,7 @@
     RDSmoothScroll.Defaults = {
         friction: 0.88,
         step: isMac? 0.65 : 2,
-        minDistance: 0.1 
+        minDistance: 0.1
     };
 
     /**
@@ -55,7 +53,10 @@
      * @protected
      */
     RDSmoothScroll.Animator = function (element) {
-        var originalTarget = (element.nodeName.toLowerCase() === "html") && isWebkit ? element.children[element.children.length - 1] : element;
+        var originalTarget = element;
+        if (element.nodeName.toLowerCase() === "html") {
+            originalTarget = this.scrollableRoot();
+        }
         this.target = element;
         this.originalTarget = originalTarget;
         this.direction = undefined;
@@ -67,6 +68,37 @@
         this.maxY = undefined;
         this.isPlaying = false;
         this.speed = 0;
+    };
+
+    /**
+     * Get root element that can be scrolled
+     * @protected
+     */
+    RDSmoothScroll.Animator.prototype.scrollableRoot = function () {
+        if (document.scrollingElement !== undefined) {
+            return document.scrollingElement;
+        }
+
+        var initialScrollTop = document.documentElement.scrollTop;
+
+        if (initialScrollTop > 1) {
+            document.documentElement.scrollTop -= 1;
+        } else {
+            document.documentElement.scrollTop += 1;
+        }
+
+        // If documentElement can't be scrolled, use fallback
+        if (initialScrollTop === document.documentElement.scrollTop) {
+            return document.body;
+        }
+
+        // If documentElement _was_ scrolled, reset to its initial position
+        // if page hasn't already been scrolled
+        if (Math.abs(document.documentElement.scrollTop - initialScrollTop) === 1) {
+            document.documentElement.scrollTop = initialScrollTop;
+        }
+
+        return document.documentElement;
     };
 
     /**
