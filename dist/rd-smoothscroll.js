@@ -75,6 +75,10 @@
      * @protected
      */
     RDSmoothScroll.Animator.prototype.scrollableRoot = function () {
+        if (document.scrollingElement !== undefined) {
+            return document.scrollingElement;
+        }
+
         var initialScrollTop = document.documentElement.scrollTop;
 
         if (initialScrollTop > 1) {
